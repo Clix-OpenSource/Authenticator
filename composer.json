@@ -1,0 +1,11 @@
+{
+	"name": "clix/authenticator",
+	"require": {
+		"phpspec/phpspec": "2.*"
+	},
+	"autoload": {
+		"psr-0": {
+			"": "src"
+		}
+	}
+}
