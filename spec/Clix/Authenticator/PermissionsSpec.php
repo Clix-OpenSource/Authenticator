@@ -11,4 +11,6 @@ class PermissionsSpec extends ObjectBehavior
     {
         $this->shouldHaveType('Clix\Authenticator\Permissions');
     }
+
+
 }
