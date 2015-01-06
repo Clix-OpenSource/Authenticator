@@ -12,5 +12,9 @@ class PermissionsSpec extends ObjectBehavior
         $this->shouldHaveType('Clix\Authenticator\Permissions');
     }
 
+    function it_should_validate_permission()
+    {
+        $this->hasAccess('access.permission')->shouldReturn(true);
+    }
 
 }
